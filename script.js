@@ -97,7 +97,7 @@ function page2() {
     scrollTrigger: {
       trigger: "#page2",
       scroller: "#main",
-        markers: true,
+        // markers: true,
       start: "top 40%",
       end: "top 60",
       scrub: 3,
