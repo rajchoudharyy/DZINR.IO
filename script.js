@@ -95,11 +95,11 @@ page1();
 function page2() {
   var tl2 = gsap.timeline({
     scrollTrigger: {
-      trigger: "#page2 h1",
+      trigger: "#page2",
       scroller: "#main",
-      //   markers: true,
-      start: "top 10%",
-      end: "top 20",
+        markers: true,
+      start: "top 40%",
+      end: "top 60",
       scrub: 3,
     },
   });
